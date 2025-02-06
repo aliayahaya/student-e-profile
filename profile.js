@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p><strong>Current Semester:</strong> ${profile.current_semester}</p>
                     <p><strong>CGPA:</strong> ${profile.cgpa}</p>
                     <p><strong>Advisor:</strong> ${profile.advisor}</p>
-                    <a href="list.html">Back to Profiles</a>
+                    <a href="list.html" class="custom-btn">Back to Profiles</a>
                 `;
             } else {
                 document.getElementById("profile-details").innerHTML = "<p>Profile not found.</p>";
