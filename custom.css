@@ -1,5 +1,5 @@
 .profile-image {
-    width: 100px; /* Adjust the width */
+    width: 10px; /* Adjust the width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensures image fits within the area */
 }
