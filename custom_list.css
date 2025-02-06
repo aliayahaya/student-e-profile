@@ -4,20 +4,20 @@
     object-fit: contain; /* Ensure the image fits without cropping, maintaining the aspect ratio */
 }
 .custom-btn {
-    background-color: #6f42c1;  /* UiTM-inspired purple */
-    color: white;               /* Text color */
-    padding: 10px 20px;         /* Space inside the button */
-    border: none;               /* Remove default border */
-    border-radius: 8px;         /* Rounded corners */
-    text-decoration: none;      /* Remove underline */
-    display: inline-block;      /* Ensure button-like behavior */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    background-color: #6f42c1;  
+    color: white;   
+    padding: 10px 20px; 
+    border: none;              
+    border-radius: 8px;         
+    text-decoration: none;      
+    display: inline-block;      
+    transition: background-color 0.3s ease; 
 }
 
 .custom-btn:hover {
-    background-color: #5a32a3;  /* Darker purple on hover */
-    color: #fff;                /* Keep text white */
-    transform: scale(1.05);     /* Slight zoom effect on hover */
+    background-color: #5a32a3; 
+    color: #fff;              
+    transform: scale(1.05);   
 }
 .card-body {
     display: flex;
