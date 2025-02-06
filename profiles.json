@@ -7,7 +7,7 @@
         "gender": "Female",
         "phone": "0148377634",
         "email": "aliayahaya59@gmail.com",
-        "address":"KG. LUBUK PERIOK, 21800 AJIL, HULU TERENGGANU",
+        "address":"Kg. Lubuk Periok, 21800 Ajil, Hulu Terengganu",
         "campus": "Machang",
         "course": "CDIM262",
         "current_semester": 4,
@@ -17,10 +17,82 @@
     },
     {
         "id": 2,
-        "name": "Siti Aminah",
-        "student_id": "2023123457",
-        "program": "Bachelor of Information Technology",
-        "email": "siti@uitm.edu.my",
-        "image": "images/siti.jpg"
+        "name": "NUR HANIS AFIQAH",
+        "student_id": "2024667933",
+        "dob": "12-04-2003",
+        "gender": "Female",
+        "phone": "01463778632",
+        "email": "hanis59@gmail.com",
+        "address":"MARA University of Technology Kelantan",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Sir Faizal",
+        "image": "profile/profile2.jpg"
+    }
+    {
+        "id": 3,
+        "name": "NURUL NAJWA",
+        "student_id": "2024879303",
+        "dob": "30-05-2003",
+        "gender": "Female",
+        "phone": "01784737434",
+        "email": "najwa09@gmail.com",
+        "address":"MARA University of Technology Kelantan",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Sir Zafian",
+        "image": "profile/profile3.jpg"
+    }
+    {
+        "id": 4,
+        "name": "NURUL SYAZATUL AIN",
+        "student_id": "2024957510",
+        "dob": "12-11-2003",
+        "gender": "Female",
+        "phone": "01987656789",
+        "email": "ain345@gmail.com",
+        "address":"MARA University of Technology Kelantan",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Madam Mashidayu",
+        "image": "profile/profile4.jpg"
+    }
+    {
+        "id": 5,
+        "name": "NUR AREESYA SURIANA",
+        "student_id": "2024387402",
+        "dob": "1-06-2003",
+        "gender": "Female",
+        "phone": "01874378543",
+        "email": "areesya07@gmail.com",
+        "address":"MARA University of Technology Kelantan",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Sir Faiz",
+        "image": "profile/profile5.jpg"
+    }
+    {
+        "id": 6,
+        "name": "NOR AINA AMILA",
+        "student_id": "2024769403",
+        "dob": "15-05-2003",
+        "gender": "Female",
+        "phone": "01673374543",
+        "email": "aina57@gmail.com",
+        "address":"MARA University of Technology Kelantan",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Sir Zafian",
+        "image": "profile/profile6.jpg"
     }
 ]
