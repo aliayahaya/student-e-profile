@@ -43,23 +43,20 @@
     <div class="card" style="width: 50%; max-width: 800px; border: 1px solid #ccc; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
         <p class="h4 d-flex justify-content-center" style="padding-top: 10px">Login</p>
         <div class="card-body">
-            <form action="process_login.php" method="POST">
+           <form id="loginForm">
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" required>
+                    <input type="text" class="form-control" id="username" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" required>
+                    <input type="password" class="form-control" id="password" required>
                 </div>
-                
-                <!-- Buttons -->
-                <div class="d-grid gap-2 col-6 mx-auto" style="padding-bottom: 20px">
-                    <button class="btn btn-secondary" type="reset">Clear</button>
+                <div class="d-grid gap-2 col-6 mx-auto">
                     <button class="btn btn-primary" type="submit">Login</button>
                 </div>
             </form>
-            <p>Don't have an account? <a href="register.php">Register here</a></p>
+            </form>
         </div>
     </div>
     </div>
