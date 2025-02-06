@@ -56,68 +56,9 @@
             <div class="container d-flex justify-content-center"> 
                 
 
-                <img src="<?php echo htmlspecialchars($userData['avatar']); ?>" 
-                            alt="avatar" 
-                            style="width: 150px; height: 150px; border-radius: 50%;">
-                
-            </div>
+                <div id="profile-details"></div>
 
-            <!-- Two-column layout -->
-            <div class="container mt-4 w-75">
-                <div class="row">
-                    <!-- Left Column -->
-                    <div class="col-md-6" style="text-align:justify">
-                        <p><strong>Name:</strong> <?php echo htmlspecialchars($userData['name']); ?></p>
-                        <p><strong>Matric No:</strong> <?php echo htmlspecialchars($userData['matric_no']); ?></p>
-                        <p><strong>Birthdate:</strong> <?php echo htmlspecialchars($userData['dob']); ?></p>
-                    </div>
-
-                    <!-- Right Column -->
-                    <div class="col-md-6" style="text-align:justify">
-                        <p><strong>Gender:</strong> <?php echo htmlspecialchars($userData['gender']); ?></p>
-                        <p><strong>Phone:</strong> <?php echo htmlspecialchars($userData['phone']); ?></p>
-                        <p><strong>Email:</strong> <?php echo htmlspecialchars($userData['email']); ?></p>
-                    </div>
-                </div>
-
-                <!-- Address (Full Width) -->
-                <div class="mt-3">
-                    <p><strong>Address:</strong> <?php echo nl2br(htmlspecialchars($userData['address'])); ?></p>
-                </div>
-            </div>
-            <hr>
-                    
-            <h2 class="text-center mb-4">Academic</h2>
-
-            <!-- Two-column layout -->
-            <div class="container mt-4 w-75">
-                <div class="row">
-                    <!-- Left Column -->
-                    <div class="col-md-6" style="text-align:justify">
-                        <p><strong>Campus:</strong> <?php echo htmlspecialchars($userData['campus']); ?></p>
-                        <p><strong>Course:</strong> <?php echo htmlspecialchars($userData['course']); ?></p>
-                    </div>
-
-                    <!-- Right Column -->
-                    <div class="col-md-6" style="text-align:justify">
-                        <p><strong>Semester:</strong> <?php echo htmlspecialchars($userData['current_semester']); ?></p>
-                        <p><strong>CGPA:</strong> <?php echo htmlspecialchars($userData['cgpa']); ?></p>
-                    </div>
-                </div>
-
-                <!-- Address (Full Width) -->
-                <div class="mt-3">
-                    <p><strong>Advisor:</strong> <?php echo nl2br(htmlspecialchars($userData['advisor'])); ?></p>
-                </div>
-            </div>
-            <hr>
-
-            <!-- Buttons (Edit and Logout) -->
-            <div class="d-flex justify-content-center gap-3 mt-3"> 
-                <a href="logout.php" class="btn btn-danger" style="width: 120px;">Logout</a>
-            </div>
-        </div>
-    </div>
+    <script src="profile.js"></script>
 
 
 
