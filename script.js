@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let profileList = document.getElementById("profile-list");
             data.forEach(profile => {
                 profileList.innerHTML += `
-                    div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
                         <img src="${profile.image}" alt="${profile.name}" class="img-fluid" style="max-width: 50%; max-height: 100px; object-fit: cover;">
                         <h3>${profile.name}</h3>
