@@ -10,10 +10,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById("profile-details").innerHTML = `
                     <img src="${profile.image}" alt="${profile.name}">
                     <h2>${profile.name}</h2>
-                    <p><strong>Student ID:</strong> ${profile.student_id}</p>
-                    <p><strong>Program:</strong> ${profile.program}</p>
-                    <p><strong>Email:</strong> ${profile.email}</p>
-                    <a href="index.html">Back to Profiles</a>
+                    <p><strong>ID:</strong> ${profile.student_id}</p>
+                        <p><strong>Birthdate:</strong> ${profile.dob}</p>
+                        <p><strong>Gender:</strong> ${profile.gender}</p>
+                        <p><strong>Phone:</strong> ${profile.phone}</p>
+                        <p><strong>Email:</strong> ${profile.email}</p>
+                        <p><strong>Address:</strong> ${profile.address}</p>
+                        <p><strong>Campus:</strong> ${profile.campus}</p>
+                        <p><strong>Course:</strong> ${profile.course}</p>
+                        <p><strong>Current Semester:</strong> ${profile.current_semester}</p>
+                        <p><strong>CGPA:</strong> ${profile.cgpa}</p>
+                        <p><strong>Advisor:</strong> ${profile.advisor}</p>
+                    <a href="list.html">Back to Profiles</a>
                 `;
             } else {
                 document.getElementById("profile-details").innerHTML = "<p>Profile not found.</p>";
