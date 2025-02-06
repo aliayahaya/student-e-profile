@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <h3>${profile.name}</h3>
                             <div class="card-body">
                                 <p><strong>ID:</strong> ${profile.student_id}</p>
-                                <a href="profile.html?id=${profile.id}">View Profile</a>
+                                <a href="profile.html?id=${profile.id}"  class="custom-btn">View Profile</a>
                             </div>
                         </div>
                     </div>
