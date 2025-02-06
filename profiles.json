@@ -13,9 +13,7 @@
         "current_semester": 4,
         "cgpa": 3.5,
         "advisor": "Sir Zafian",
-        "image": "profile/profile1.jpg",
-        "username": "alia",
-        "password": 12345
+        "image": "profile/profile1.jpg"
     },
     {
         "id": 2,
