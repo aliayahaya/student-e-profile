@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
             let profileList = document.getElementById("profile-list");
             data.forEach(profile => {
                 profileList.innerHTML += `
-                   <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow-sm">
-                        <img src="${profile.image}" alt="${profile.name}">
-                        <h3>${profile.name}</h3>
-                        <div class="card-body">
-                        <p><strong>ID:</strong> ${profile.student_id}</p>
-                        <a href="profile.html?id=${profile.id}">View Profile</a>
-                        </div>
+                            <img src="${profile.image}" alt="${profile.name}" class="profile-image"> <!-- Add the profile-image class here -->
+                            <h3>${profile.name}</h3>
+                            <div class="card-body">
+                                <p><strong>ID:</strong> ${profile.student_id}</p>
+                                <a href="profile.html?id=${profile.id}">View Profile</a>
+                            </div>
                         </div>
                     </div>
                 `;
