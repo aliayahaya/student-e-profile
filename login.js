@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
             
             if (user) {
                 alert('Login successful!');
-                window.location.href = 'profile.html'; // Redirect to profile page
+                window.location.href = 'list.html'; // Redirect to profile page
             } else {
                 alert('Invalid username or password!');
             }
