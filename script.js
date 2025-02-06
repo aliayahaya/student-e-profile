@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 profileList.innerHTML += `
                     <div class="col-md-4 mb-4">
                         <div class="card w-80 h-100 shadow-sm">
-                            <img src="${profile.image}" alt="${profile.name}" class="profile-image"> <!-- Add the profile-image class here -->
-                            <h3>${profile.name}</h3>
+                            <img src="${profile.image}" alt="${profile.name}" class="profile-image"> 
+                            <h3 class="card-body">${profile.name}</h3>
                             <div class="card-body">
                                 <p><strong>ID:</strong> ${profile.student_id}</p>
                                 <a href="profile.html?id=${profile.id}"  class="custom-btn">View Profile</a>
