@@ -11,6 +11,18 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h3>${profile.name}</h3>
                         <div class="card-body">
                         <p><strong>ID:</strong> ${profile.student_id}</p>
+                        <p><strong>Birthdate:</strong> ${profile.dob}</p>
+                        <p><strong>Gender:</strong> ${profile.gender}</p>
+                        <p><strong>Phone:</strong> ${profile.phone}</p>
+                        <p><strong>Email:</strong> ${profile.email}</p>
+                        <p><strong>Address:</strong> ${profile.address}</p>
+                        <p><strong>Campus:</strong> ${profile.campus}</p>
+                        <p><strong>Course:</strong> ${profile.course}</p>
+                        <p><strong>Current Semester:</strong> ${profile.current_semester}</p>
+                        <p><strong>CGPA:</strong> ${profile.cgpa}</p>
+                        <p><strong>Advisor:</strong> ${profile.advisor}</p>
+                        <p><strong>Username:</strong> ${profile.username}</p>
+                        <p><strong>Password:</strong> ${profile.password}</p>
                         <a href="profile.html?id=${profile.id}">View Profile</a>
                         </div>
                         </div>
