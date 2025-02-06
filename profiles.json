@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "NUR ALIA BINTI YAHAYA",
+        "student_id": "2024554289",
+        "dob": "21-02-2003",
+        "gender": "Female",
+        "phone": "0148377634",
+        "email": "ahmad@uitm.edu.my",
+        "address":"KG. LUBUK PERIOK, 21800 AJIL, HULU TERENGGANU",
+        "campus": "Machang",
+        "course": "CDIM262",
+        "current_semester": 4,
+        "cgpa": 3.5,
+        "advisor": "Sir Zafian",
+        "image": "uploads/avatar/profile pic.jpg",
+        "username": "alia",
+        "password": 12345
+    },
+    {
+        "id": 2,
+        "name": "Siti Aminah",
+        "student_id": "2023123457",
+        "program": "Bachelor of Information Technology",
+        "email": "siti@uitm.edu.my",
+        "image": "images/siti.jpg"
+    }
+]
