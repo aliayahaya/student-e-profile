@@ -19,9 +19,6 @@
     color: #fff;              
     transform: scale(1.05);   
 }
-.card {
-    width:110px;
-}
 .card-body {
     display: flex;
     flex-direction: column;
