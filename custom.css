@@ -26,3 +26,26 @@
     align-items: center;
     gap:10px;
 }
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.profile-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.profile-table td:first-child {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    width: 30%;
+}
+
+.profile-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
