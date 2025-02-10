@@ -7,29 +7,48 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             let profile = data.find(p => p.id == profileId);
             if (profile) {
-                // Create an image element and add the custom class
+                // Create an image element and the custom class
                 const imgElement = document.createElement("img");
                 imgElement.src = profile.image;
                 imgElement.alt = profile.name;
-                imgElement.classList.add("profile-image"); // Add the custom profile-image class
+                imgElement.classList.add("profile-image");
 
-                // Update profile details
-                document.getElementById("profile-details").innerHTML = `
-                    ${imgElement.outerHTML} <!-- Insert the image here -->
-                    <h2>${profile.name}</h2>
-                    <p><strong>ID:</strong> ${profile.student_id}</p>
-                    <p><strong>Birthdate:</strong> ${profile.dob}</p>
-                    <p><strong>Gender:</strong> ${profile.gender}</p>
-                    <p><strong>Phone:</strong> ${profile.phone}</p>
-                    <p><strong>Email:</strong> ${profile.email}</p>
-                    <p><strong>Address:</strong> ${profile.address}</p>
-                    <p><strong>Campus:</strong> ${profile.campus}</p>
-                    <p><strong>Course:</strong> ${profile.course}</p>
-                    <p><strong>Current Semester:</strong> ${profile.current_semester}</p>
-                    <p><strong>CGPA:</strong> ${profile.cgpa}</p>
-                    <p><strong>Advisor:</strong> ${profile.advisor}</p>
-                    <a href="list.html" class="custom-btn">Back to Profiles</a>
-                `;
+                // Create the table
+                const table = document.createElement("table");
+                table.classList.add("profile-table"); // Custom class for styling
+
+                // Profile details
+                const details = [
+                    { label: "ID", value: profile.student_id },
+                    { label: "Birthdate", value: profile.dob },
+                    { label: "Gender", value: profile.gender },
+                    { label: "Phone", value: profile.phone },
+                    { label: "Email", value: profile.email },
+                    { label: "Address", value: profile.address },
+                    { label: "Campus", value: profile.campus },
+                    { label: "Course", value: profile.course },
+                    { label: "Current Semester", value: profile.current_semester },
+                    { label: "CGPA", value: profile.cgpa },
+                    { label: "Advisor", value: profile.advisor }
+                ];
+
+                details.forEach(detail => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td><strong>${detail.label}</strong></td>
+                        <td>${detail.value}</td>
+                    `;
+                    table.appendChild(row);
+                });
+
+                // Append everything to the profile-details container
+                const profileContainer = document.getElementById("profile-details");
+                profileContainer.innerHTML = ""; // Clear existing content
+                profileContainer.appendChild(imgElement);
+                profileContainer.innerHTML += `<h2>${profile.name}</h2>`;
+                profileContainer.appendChild(table);
+                profileContainer.innerHTML += `<a href="list.html" class="custom-btn">Back to Profiles</a>`;
+
             } else {
                 document.getElementById("profile-details").innerHTML = "<p>Profile not found.</p>";
             }
